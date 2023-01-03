@@ -1,0 +1,267 @@
+ body{
+     font-family:'Railway' , sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ .btn{
+     padding:10px 20px;
+     font-size:20px;
+     font-weight:700;
+
+ }
+
+
+.custom-btn{
+    background-color:#4BA87D;
+    border:none;
+    color: #fff;
+}
+
+nav ul li img{
+    width:150px;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.menu-bar li, .menu-bar button{
+    border-bottom:3px solid #4BA87D;
+    font-weight:900;
+    margin-right: 50px ;
+    padding:10px;
+}
+
+
+  
+
+
+.banner-section{
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:100px 10%;
+}
+
+ 
+
+.blank-btn{
+    color:#4BA87D;
+    border:2px solid #4BA87D;
+    background:white; 
+}
+
+.banner-text{
+    display: flex;
+    align-items:center;
+}
+
+.try-btn{
+     margin-right: 15px;
+    border:2px solid #4BA87D;
+}
+
+.banner-heading{
+    font-size:60px;
+    margin:10px 0;
+    font-weight:900;
+}
+
+.banner-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.reach-section{
+    background-color:#F7F7F7;
+    padding:100px 15%;
+   
+}
+
+.reach-content{
+        
+        height:600px;
+        background-image:url("covv.jpg");
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+
+
+}
+
+.reach-content h1{
+    color:#fff;
+    font-size:60px;
+    font-family: 900;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.services-section{
+    padding:100px 20%; 
+    background-color:#CAEAC7;
+}
+.services, .customers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+    margin-top:100px;
+}
+
+ .service{
+     box-shadow:2px 2px 20px gray;
+     background-color:#fff;
+ }
+
+.service img{
+    width: 100%;
+}
+
+.service-text{
+    padding: 25px;
+}
+
+.learn-text{
+    color:#4BA87D;
+    font-size:20px;
+    font-weight:800;
+}
+
+.customer-section{
+    padding:100px 20%; 
+}
+
+.customer{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:250px;
+    color:#fff;
+    padding: 20px;
+    display: flex;
+    align-items:flex-end;
+
+
+}
+
+.customer h1{
+    font-size:50px;
+    margin:0;
+}
+
+.customer h2{
+    margin:3px;
+}
+.customer-one{
+
+    background:linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)), url("jalata.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.customer-two{
+
+    background:linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)), url("jalata.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.customer-three{
+ 
+    background:linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)), url("jalata.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.long-header{
+    font-size:45px;
+    font-weight:900;
+}
+
+.contact-section{
+    margin:50px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form input{
+    padding:15px;
+    width:400px;
+    border-radius:10px;
+    border-radius: none;
+    border:2px solid lightgray;
+    margin-right:20px;
+}
+
+.green-text{
+    color:#4BA87D;
+    text-align:center;
+}
+
+.brand-section{
+    padding:100px 20%;
+}
+
+.brand-logos{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+}
+
+
+.getstarted-section{
+    background-color:#4BA87D;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:50px 0px;
+    text-align: center;
+}
+
+
+.getstarted-section h1{
+    color: #fff;
+    font-weight: 900;
+    font-size:50px;
+}
+
+footer{
+    padding:50px 15%;
+     
+}
+
+.footer-upper{
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    margin-bottom:20px;
+}
+
+footer p{
+    font-weight:700;
+}
+
+ .footer-lower{
+     display: flex;
+     justify-content:space-between;
+ }
+
+ .footer-horizontal{
+     border:2px solid lightgray;
+ }
